@@ -44,13 +44,13 @@ após criado o projeto, você pode inicia-lo com: ``` npm start ```
 
 - é a principal maneira de se escrever HTML com o React;
 
-- podemos **interpolar variáveis, inserindo ela entre {};
+- podemos **interpolar variáveis**, inserindo ela entre {};
 
 - é possível também **executar funções** em JSX;
 
 - inserir **valores em atributos de tags** também é válido em JSX.
 
-**TODOS OS ELEMENTOS JSX DEVEM ESTAR ENVOLTAS EM UM PAI**
+*TODOS OS ELEMENTOS JSX DEVEM ESTAR ENVOLTAS EM UM PAI*
 
 ## 04 - criando componentes no React
 
@@ -62,8 +62,8 @@ após criado o projeto, você pode inicia-lo com: ``` npm start ```
 
 - precisamos **criar um arquivo** de componente e **importá-lo** onde precisamos utilizar.
 
-existe uma regra para nomear componentes em ReactJS chamado *PascalCase*, em que a todas as palavras devem começar com letra maiúscula.
+- existe uma regra para nomear componentes em ReactJS chamado *PascalCase*, em que a todas as palavras devem começar com letra maiúscula.
 
-componentes devem ser REUTILIZÁVEIS.
+- componentes devem ser REUTILIZÁVEIS.
 
 ## 05 - trabalhando com props
