@@ -67,3 +67,45 @@ após criado o projeto, você pode inicia-lo com: ``` npm start ```
 > componentes devem ser REUTILIZÁVEIS.
 
 ## 05 - trabalhando com props
+
+### props
+
+- as **props** são valores passados para componentes;
+
+- podemos deixá-los **dinâmicos**, assim **mudando a execução** por causa do valor da prop;
+
+- o valor é passado como um **atributo** na chamada do componente;
+
+- e precisa ser **resgatado dentro de uma propriedade/argumento** chamada props na função de definição do compenente;
+
+<hr/>
+
+**Props** podem ser usadas da seguinte maneira:
+
+```js
+function Pessoa(props) {
+  return (
+    <div>
+        <img src={props.foto} alt={props.nome} />
+        <h2>nome: {props.nome}</h2>
+        <p>idade: {props.idade}</p>
+        <p>profissão: {props.profissao}</p>
+    </div>
+  );
+} 
+```
+
+Porém é nítida a repetição da palavra 'props' no código, dessa maneira podemos usar a desestruturação para informar quais serão as propriedades usadas, assim resultando no seguinte:
+
+```js
+function Pessoa({nome, idade, profissao, foto}) {
+  return (
+    <div>
+        <img src={foto} alt={nome} />
+        <h2>nome: {nome}</h2>
+        <p>idade: {idade}</p>
+        <p>profissão: {profissao}</p>
+    </div>
+  );
+}
+```
