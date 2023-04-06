@@ -109,3 +109,13 @@ function Pessoa({nome, idade, profissao, foto}) {
   );
 }
 ```
+
+## 06 - CSS modules
+
+### adicionando CSS
+
+- o CSS pode ser adicionado de **forma global** na aplicação, por meio do arquivo index.css por exemplo;
+
+- porém é possível estilizar a **nível de componentes**, utilizando o *CSS modules*;
+
+- *Componente.module.css*;

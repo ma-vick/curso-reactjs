@@ -1,4 +1,5 @@
 import './App.css';
+import Frase from './components/Frase';
 import HelloWorld from './components/HelloWorld';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
@@ -8,6 +9,8 @@ function App() {
 
   return (
     <div className="App">
+      <Frase />
+      <Frase />
       <SayMyName name="Vick" />
       <SayMyName name="Vyn" />
       <SayMyName name={nome} />
