@@ -119,3 +119,25 @@ function Pessoa({nome, idade, profissao, foto}) {
 - porém é possível estilizar a **nível de componentes**, utilizando o *CSS modules*;
 
 - *Componente.module.css*;
+
+## 07 - React Fragments
+
+### fragmentos
+
+- os **React Fragments** permitem a criação de um componente sem elemento pai;
+
+- o propósito é **descomplicar os nós do DOM**;
+
+- a sintaxe é **<>** e **</>**;
+
+exemplo:
+
+```js
+export default function Item(props) {
+  return (
+    <>
+      <li>{props.marca}</li>
+    </>
+  );
+}
+```

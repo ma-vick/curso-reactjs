@@ -1,6 +1,7 @@
 import './App.css';
 import Frase from './components/Frase';
 import HelloWorld from './components/HelloWorld';
+import List from './components/List';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 
@@ -20,6 +21,7 @@ function App() {
         profissao="modelo"
         foto="https://via.placeholder.com/150"
       />
+      <List />
     </div>
   );
 }
