@@ -141,3 +141,19 @@ export default function Item(props) {
   );
 }
 ```
+
+## 08 - Avançando em props
+
+- podemos **definir tipos para as props**, realizando uma espécie de validação;
+
+- definimos em um objeto chamado propTypes no próprio componente;
+
+- utilizando o objeto **defaultProps** podemos *definir um valor padrão*.
+
+## 09 - Eventos no React (onCLick, onChange e onSubmit)
+
+- Os *eventos de React* são os mesmos eventos do DOM;
+
+- O evento é *atrelado a uma tag* que irá executá-lo;
+
+- Geralmente um *método* é atribuído ao evento, e deve ser criado no componente.

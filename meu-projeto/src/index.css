@@ -10,3 +10,18 @@ p {
   background-color: #b6c9c5;
   padding: 10px;
 }
+
+button {
+  background-color: #c1b6c9;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #867e8c;
+}
