@@ -165,3 +165,12 @@ export default function Item(props) {
 - com ele conseguimos *manusear o estado* de um componente de forma simples;
 
 - este hook *funciona muito bem com eventos*, podemos atrelar um evento a *mudança de state*.
+
+
+## 11 - Passar eventos por props
+
+- os *métodos* também podem ser passados por props;
+
+- ou seja, um *componente filho pode ativar o método do seu ancestral*;
+
+- vamos acessar o método por meio de um *evento* usando a seguinte sintaxe: *props.meuEvento*
