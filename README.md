@@ -157,3 +157,11 @@ export default function Item(props) {
 - O evento é *atrelado a uma tag* que irá executá-lo;
 
 - Geralmente um *método* é atribuído ao evento, e deve ser criado no componente.
+
+## 10 - useState na prática
+
+- o *useState* é um hook do React;
+
+- com ele conseguimos *manusear o estado* de um componente de forma simples;
+
+- este hook *funciona muito bem com eventos*, podemos atrelar um evento a *mudança de state*.
