@@ -174,3 +174,12 @@ export default function Item(props) {
 - ou seja, um *componente filho pode ativar o método do seu ancestral*;
 
 - vamos acessar o método por meio de um *evento* usando a seguinte sintaxe: *props.meuEvento*
+
+
+## 12 - Renderização por condição
+
+- podemos atrelar a exibição de algum elemento a um *if*;
+
+- envolvemos as tags em chaves *{}*;
+
+- é possível usar o *state* para criar as condições;

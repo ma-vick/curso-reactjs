@@ -5,6 +5,7 @@ import List from './components/List';
 import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 function App() {
   const nome = 'Theo';
@@ -26,6 +27,7 @@ function App() {
       <Evento numero="1" />
       <Evento numero="2" />
       <Form />
+      <Condicional />
     </div>
   );
 }
