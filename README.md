@@ -183,3 +183,11 @@ export default function Item(props) {
 - envolvemos as tags em chaves *{}*;
 
 - é possível usar o *state* para criar as condições;
+
+## 13 - Renderização de listas
+
+- para renderizar uma lista vamos primeiramente precisar de um *array*;
+
+- depois utilizamos a *função map*, para percorrer cada um dos itens;
+
+- é possível *unir operadores condicionais* com a renderização de listas;

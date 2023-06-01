@@ -6,9 +6,11 @@ import Pessoa from './components/Pessoa';
 import SayMyName from './components/SayMyName';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import OutraLista from './components/OutraLista';
 
 function App() {
   const nome = 'Theo';
+  const meusItens = ['React', 'Vue', 'Angular'];
 
   return (
     <div className="App">
@@ -28,6 +30,8 @@ function App() {
       <Evento numero="2" />
       <Form />
       <Condicional />
+      <OutraLista itens={meusItens}/>
+      <OutraLista itens={[]}/>
     </div>
   );
 }
