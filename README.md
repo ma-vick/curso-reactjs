@@ -207,3 +207,11 @@ export default function Item(props) {
 - podemos assim acessar outras views, sem o page reload, trocando apenas uma parte do layout da aplicação, ou seja, muda de view para view;
 
 [documentação](https://reactrouter.com/en/main)
+
+## 16 - React Icons
+
+- o *React Icons* é um pacote de ícones externo;
+
+- ele nos permite adicionar ícones ao projeto com uma *sintaxe parecida a de componentes*;
+
+[site do React Icons](https://react-icons.github.io/react-icons/)

@@ -1,5 +1,6 @@
 body {
   background-color: rgb(230, 233, 232);
+  min-height: 100vh;
 }
 
 h1 {
