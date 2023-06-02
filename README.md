@@ -199,3 +199,11 @@ export default function Item(props) {
 - é normal vários componentes *dependerem do mesmo estado*, então precisamos elevar o nível do mesmo a um *componente pai*;
 
 - então centralizamos o state no pai, e *definios quem usa e quem define* (setState);
+
+## 15 - React Router
+
+- o React Router é um pacote para mudança de URLs da aplicação;
+
+- podemos assim acessar outras views, sem o page reload, trocando apenas uma parte do layout da aplicação, ou seja, muda de view para view;
+
+[documentação](https://reactrouter.com/en/main)

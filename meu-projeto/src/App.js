@@ -1,11 +1,13 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom';
-import './App.css';
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <ul>
-      <li></li>
-    </ul>
+    <div className="App">
+        <Header />
+        <Outlet />
+    </div>
   );
 }
 

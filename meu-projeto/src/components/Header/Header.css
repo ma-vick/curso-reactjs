@@ -1,0 +1,27 @@
+nav {
+    min-width: 65vw;
+    background-color: rgb(0, 183, 122);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.item a:hover {
+    color: rgb(0, 110, 74);
+}
