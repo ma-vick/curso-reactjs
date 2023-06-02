@@ -191,3 +191,11 @@ export default function Item(props) {
 - depois utilizamos a *função map*, para percorrer cada um dos itens;
 
 - é possível *unir operadores condicionais* com a renderização de listas;
+
+## 14 - State Lift
+
+- *State Lift* é uma técnica utilizada para compartilhar o state;
+
+- é normal vários componentes *dependerem do mesmo estado*, então precisamos elevar o nível do mesmo a um *componente pai*;
+
+- então centralizamos o state no pai, e *definios quem usa e quem define* (setState);

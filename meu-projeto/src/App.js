@@ -7,10 +7,14 @@ import SayMyName from './components/SayMyName';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
 import OutraLista from './components/OutraLista';
+import SeuNome from './components/SeuNome';
+import { useState } from 'react';
+import Saudacao from './components/Saudacao';
 
 function App() {
   const nome = 'Theo';
   const meusItens = ['React', 'Vue', 'Angular'];
+  const [name, setName] = useState();
 
   return (
     <div className="App">
@@ -32,6 +36,9 @@ function App() {
       <Condicional />
       <OutraLista itens={meusItens}/>
       <OutraLista itens={[]}/>
+      <SeuNome setNome={setName}/>
+      {name}
+      <Saudacao nome={name}/>
     </div>
   );
 }
