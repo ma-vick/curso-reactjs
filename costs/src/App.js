@@ -1,7 +1,12 @@
+import { Outlet } from "react-router-dom";
+
+import Header from "./components/layout/Header";
+
 function App() {
   return (
     <div className="App">
-      Costs
+      <Header />
+      <Outlet />
     </div>
   );
 }
