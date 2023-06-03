@@ -1,4 +1,31 @@
-.footerContainer {
-    display: flex;
+.footer_container {
     background-color: #1b1b1b;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.list li {
+    margin: 0 1em;
+}
+
+.list li svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.list li:hover {
+    color: #ffbb33;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33;
 }

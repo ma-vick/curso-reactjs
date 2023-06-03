@@ -1,0 +1,14 @@
+.newproject_container {
+    margin: 0 auto;
+    padding: 3em;
+    width: 450px;
+    font-size: 1.1em;
+}
+
+.newproject_container h1 {
+    margin-bottom: 0.5em;
+}
+
+.newproject_container p {
+    color: #4e4e4e;
+}

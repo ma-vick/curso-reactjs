@@ -4,20 +4,20 @@ import styles from './Footer.module.css';
 
 export default function Footer(){
     return (
-        <footer className={styles.footerContainer}>
+        <footer className={styles.footer_container}>
             <ul className={styles.list}>
-                <li className={styles.item}>
+                <li>
                     <FaFacebook />
                 </li>
-                <li className={styles.item}>
+                <li>
                     <FaInstagram />
                 </li>
-                <li className={styles.item}>
+                <li>
                     <FaLinkedin />
                 </li>
             </ul>
-            <p>
-                <span>Costs</span> &copy; 2021
+            <p className={styles.copy_right}>
+                <span>Costs</span> &copy; 2023
             </p>
         </footer>
     )

@@ -8,14 +8,14 @@
     width: 50px;
 }
 
-.navContainer {
+.nav_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 8vw;
 }
 
-.navList {
+.nav_list {
     display: flex;
     list-style: none;
 }

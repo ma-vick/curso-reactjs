@@ -6,9 +6,9 @@ import logo from '../../../imgs/costs_logo.png';
 export default function Header() {
   return (
     <header className={styles.container}>
-        <nav className={styles.navContainer}>
+        <nav className={styles.nav_container}>
             <Link to="/"><img src={logo} alt="Logo" className={styles.logo} /></Link>
-            <ul className={styles.navList}>
+            <ul className={styles.nav_list}>
                 <li className={styles.item}><Link to='/home'>Home</Link></li>
                 <li className={styles.item}><Link to='/projects'>Projetos</Link></li>
                 <li className={styles.item}><Link to='/company'>Empresa</Link></li>
