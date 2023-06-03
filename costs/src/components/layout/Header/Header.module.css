@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    background-color: #1b1b1b;
+    padding: 18px 0;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8vw;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+    margin-right: 1em;
+}
+
+.item a:hover {
+    color: #ffbb33;
+}
