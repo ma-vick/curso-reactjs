@@ -1,23 +1,46 @@
+import { useEffect, useState } from "react";
+import Input from "../../form/Input";
+import Select from "../../form/Select";
+import SubmitButton from "../../form/SubmitButton";
 import styles from "./ProjectForm.module.css";
 
-export default function ProjectForm() {
+export default function ProjectForm({ btnText }) {
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/categories", {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setCategories(data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
-    <form>
-      <div>
-        <label htmlFor="name_project">Insira o nome do projeto</label>
-        <input type="text" placeholder="Costs" name="name_project" />
-      </div>
-      <div>
-        <label htmlFor="budget">Insira o orçamento total</label>
-        <input type="number" placeholder="3000" name="budget" />
-      </div>
-      <div>
-        <select name="category_id">
-          <option disabled selected>
-            Selecione a categoria
-          </option>
-        </select>
-      </div>
+    <form className={styles.form}>
+      <Input
+        text="Insira o nome do projeto"
+        type="text"
+        name="name_project"
+        placeholder="Nome do projeto"
+      />
+      <Input
+        text="Insira o orçamento do total"
+        type="number"
+        name="name_project"
+        placeholder="Orçamento do projeto"
+      />
+      <Select
+        name="category_id"
+        text="Selecionar a categoria"
+        options={categories}
+      />
+      <SubmitButton text={btnText} />
     </form>
   );
 }
